@@ -32,6 +32,7 @@ public class SolutionService {
             case 3 -> new Day03();
             case 4 -> new Day04();
             case 5 -> new Day05();
+            case 6 -> new Day06();
             default -> null;
         };
     }
