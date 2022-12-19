@@ -2,12 +2,7 @@ package com.freyahesketh.adventofcode.solution;
 
 import com.freyahesketh.adventofcode.model.PartSolution;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.Queue;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class Day06 extends Day {
 

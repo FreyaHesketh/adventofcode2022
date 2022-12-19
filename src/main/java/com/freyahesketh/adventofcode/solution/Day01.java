@@ -3,7 +3,6 @@ package com.freyahesketh.adventofcode.solution;
 import com.freyahesketh.adventofcode.model.PartSolution;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
