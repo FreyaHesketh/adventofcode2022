@@ -29,6 +29,7 @@ public class SolutionService {
         return switch (dayNumber) {
             case 1 -> new Day01();
             case 2 -> new Day02();
+            case 3 -> new Day03();
             default -> null;
         };
     }

@@ -13,6 +13,7 @@ public class Main {
     public static void main(String[] args) {
         runDaySolution(1,true);
         runDaySolution(2,true);
+        runDaySolution(3,true);
     }
 
     private static void runDaySolution(int day, boolean isInt){
