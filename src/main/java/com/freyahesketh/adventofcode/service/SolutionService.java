@@ -28,6 +28,7 @@ public class SolutionService {
     private Day getDay(int dayNumber) {
         return switch (dayNumber) {
             case 1 -> new Day01();
+            case 2 -> new Day02();
             default -> null;
         };
     }
