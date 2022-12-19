@@ -35,3 +35,6 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### Project Input ###
+src/main/resources/input/*.txt
