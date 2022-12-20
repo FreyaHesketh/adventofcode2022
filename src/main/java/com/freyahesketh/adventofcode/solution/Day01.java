@@ -16,13 +16,13 @@ public class Day01 extends Day {
     @Override
     // https://adventofcode.com/2022/day/1        
     // Find the calories of the elf with the highest total number of calories
-    PartSolution part1(List<String> input) {
+    public PartSolution part1(List<String> input) {
         return new PartSolution(1, Collections.max(getCalorieSum(input)), null);
     }
 
     @Override
     // Find the calories of the three elves with the highest total number of calories
-    PartSolution part2(List<String> input) {
+    public PartSolution part2(List<String> input) {
         // Return a list of the sums of the calories 
         ArrayList<Integer> calories = getCalorieSum(input);
         // Sort the list in descending order

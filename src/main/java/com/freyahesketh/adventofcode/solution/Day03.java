@@ -13,7 +13,7 @@ public class Day03 extends Day {
 
     @Override
     // https://adventofcode.com/2022/day/3
-    PartSolution part1(List<String> input) {
+    public PartSolution part1(List<String> input) {
         int sum = 0;
         for (String rucksack : input){
             // Store the compartments as 2 Strings utilizing the fact that they are equal in size
@@ -36,7 +36,7 @@ public class Day03 extends Day {
     }
 
     @Override
-    PartSolution part2(List<String> input) {
+    public PartSolution part2(List<String> input) {
         int sum = 0;
         // For each pair of 3 elves in the list
         for (int i = 0; i < input.size();  i += 3){

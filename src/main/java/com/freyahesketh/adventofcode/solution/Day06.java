@@ -7,18 +7,16 @@ import java.util.List;
 public class Day06 extends Day {
 
     @Override
-    protected int getDay() {
-        return 5;
-    }
+    protected int getDay() {return 6;}
 
     @Override
     // https://adventofcode.com/2022/day/6
-    PartSolution part1(List<String> input) {
+    public PartSolution part1(List<String> input) {
         return new PartSolution(1, uniqueMessage(input.get(0), 4), null);
     }
 
     @Override
-    PartSolution part2(List<String> input) {
+    public PartSolution part2(List<String> input) {
         return new PartSolution(2, uniqueMessage(input.get(0), 14), null);
     }
     

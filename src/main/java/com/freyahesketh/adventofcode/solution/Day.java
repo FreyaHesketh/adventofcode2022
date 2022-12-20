@@ -14,7 +14,7 @@ public abstract class Day {
         return new DaySolution(getDay(), part1(input), part2(input));
     }
 
-    abstract PartSolution part1(List<String> input);
+   public abstract PartSolution part1(List<String> input);
 
-    abstract PartSolution part2(List<String> input);
+    public abstract PartSolution part2(List<String> input);
 }

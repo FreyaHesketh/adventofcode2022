@@ -16,7 +16,7 @@ public class Day05 extends Day {
 
     @Override
     // https://adventofcode.com/2022/day/5
-    PartSolution part1(List<String> input) {
+    public PartSolution part1(List<String> input) {
         String answer = "";
         ArrayList<LinkedList> stackList = stringReader(input, 0);
         // Construct the answer String by taking the first crate of each stack
@@ -27,7 +27,7 @@ public class Day05 extends Day {
     }
 
     @Override
-    PartSolution part2(List<String> input) {
+    public PartSolution part2(List<String> input) {
         String answer = "";
         ArrayList<LinkedList> stackList = stringReader(input, 1);
         // Construct the answer String by taking the first crate of each stack

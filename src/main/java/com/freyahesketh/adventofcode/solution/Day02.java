@@ -15,7 +15,7 @@ public class Day02 extends Day {
     // https://adventofcode.com/2022/day/2        
     // If Y, rock, has a score of 1, X, paper, has a score of 2 and Y, scissors, has a score of 3
     // and if winning gives 6 points, drawing 3 and losing 0 - what is the total score?
-    PartSolution part1(List<String> input) {
+    public PartSolution part1(List<String> input) {
         int score = 0;
         for (String game : input){
             // If I play rock
@@ -34,7 +34,7 @@ public class Day02 extends Day {
 
     @Override
     // If A is rock, B is paper and C scissors and X means I need to lose, Y draw and Z win what is the total score?
-    PartSolution part2(List<String> input) {
+    public PartSolution part2(List<String> input) {
         int score = 0;
         for (String game : input){
             // If I draw

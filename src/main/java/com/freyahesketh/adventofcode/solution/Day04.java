@@ -11,7 +11,7 @@ public class Day04 extends Day {
 
     @Override
     // https://adventofcode.com/2022/day/4
-    PartSolution part1(List<String> input) {
+    public PartSolution part1(List<String> input) {
         int sumOfPairs = 0;
         for (String pair : input){
             // The first elf in the pair
@@ -33,7 +33,7 @@ public class Day04 extends Day {
     }
 
     @Override
-    PartSolution part2(List<String> input) {
+    public PartSolution part2(List<String> input) {
         int sumOfPairs = 0;
         for (String pair : input){
             // The first elf in the pair
