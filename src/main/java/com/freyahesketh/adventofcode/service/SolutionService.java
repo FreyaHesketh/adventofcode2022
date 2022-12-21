@@ -3,6 +3,7 @@ package com.freyahesketh.adventofcode.service;
 import com.freyahesketh.adventofcode.model.DaySolution;
 import com.freyahesketh.adventofcode.model.PartSolution;
 import com.freyahesketh.adventofcode.solution.*;
+import com.freyahesketh.adventofcode.solution.day07.Day07;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -33,6 +34,7 @@ public class SolutionService {
             case 4 -> new Day04();
             case 5 -> new Day05();
             case 6 -> new Day06();
+            case 7 -> new Day07();
             default -> null;
         };
     }

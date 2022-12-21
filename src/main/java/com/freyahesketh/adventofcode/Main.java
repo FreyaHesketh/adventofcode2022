@@ -17,6 +17,7 @@ public class Main {
         runDaySolution(4,true);
         runDaySolution(5,false);
         runDaySolution(6,true);
+        runDaySolution(7,true);
     }
 
     private static void runDaySolution(int day, boolean isInt){
